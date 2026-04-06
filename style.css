@@ -126,3 +126,110 @@ main {
 	cursor: pointer;
 	margin-bottom: 1rem;
 }
+
+.post-meta {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid #e2e8f0;
+	color: #64748b;
+	font-size: 0.9rem;
+}
+
+.reading-time {
+	background: #f1f5f9;
+	padding: 0.2rem 0.6rem;
+	border-radius: 20px;
+	font-size: 0.85rem;
+}
+
+.table-of-contents {
+	background: #f1f5f9;
+	border-left: 4px solid #e94560;
+	padding: 1rem 1.5rem;
+	margin: 1.5rem 0 2rem;
+	border-radius: 8px;
+}
+
+.table-of-contents h3 {
+	margin: 0 0 0.75rem 0;
+	font-size: 1.1rem;
+	color: #1e293b;
+}
+
+.table-of-contents ul {
+	margin: 0;
+	padding-left: 1.25rem;
+	list-style-type: none;
+}
+
+.table-of-contents li {
+	margin: 0.4rem 0;
+}
+
+.table-of-contents .toc-link {
+	color: #475569;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: color 0.2s;
+}
+
+.table-of-contents .toc-link:hover {
+	color: #e94560;
+	text-decoration: underline;
+}
+
+/* Контент статьи с отступами для якорных ссылок */
+.post-content h2 {
+	scroll-margin-top: 20px;
+}
+
+/* Кнопка избранного */
+.fav-btn {
+	background: none;
+	border: 1px solid #cbd5e1;
+	border-radius: 20px;
+	padding: 0.2rem 0.7rem;
+	font-size: 0.85rem;
+	cursor: pointer;
+	transition: all 0.2s;
+	color: #64748b;
+}
+
+.fav-btn:hover {
+	background: #fef3c7;
+	border-color: #f59e0b;
+}
+
+.fav-btn.active {
+	background: #fef3c7;
+	border-color: #f59e0b;
+	color: #e94560;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.card-header h2 {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.favorites-counter {
+	margin-left: auto;
+	background: #e94560;
+	padding: 0.2rem 0.7rem;
+	border-radius: 20px;
+	color: white;
+	font-size: 0.85rem;
+}
+
+.favorites-counter span {
+	font-weight: bold;
+}
