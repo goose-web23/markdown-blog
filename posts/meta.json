@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"title": "Введение в JavaScript",
+		"date": "2026-03-01",
+		"description": "Основные концепции языка для начинающих",
+		"file": "posts/1.md"
+	},
+	{
+		"id": 2,
+		"title": "Работа с DOM",
+		"date": "2026-03-10",
+		"description": "Как управлять HTML-элементами из JavaScript",
+		"file": "posts/2.md"
+	},
+	{
+		"id": 3,
+		"title": "Асинхронный JavaScript",
+		"date": "2026-03-20",
+		"description": "fetch, Promise и async/await на практике",
+		"file": "posts/3.md"
+	}
+]
